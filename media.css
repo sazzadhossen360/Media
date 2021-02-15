@@ -1,0 +1,22 @@
+.mediaChecker{
+    background-color: red;
+    height: 100vh;
+    width: 100vw;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width:992px){
+    .mediaChecker{
+        background-color: green;
+    }
+}
+
+@media screen and (max-width:768px){
+    .mediaChecker{
+        background-color:orange;
+    }
+}

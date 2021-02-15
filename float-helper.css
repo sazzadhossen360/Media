@@ -1,0 +1,22 @@
+/* step 1 */
+*{
+    box-sizing: border-box;
+}
+
+/* step 2 */
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* step 3 */
+.parent{
+    display: block;
+    content: '';
+    clear: both;
+}
+
+/* step 4 */
+.box{
+    float: left;
+}

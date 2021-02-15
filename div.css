@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+.parent{
+    display: block;
+    content: '';
+    clear: both;
+}
+.base{
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    /* margin: auto; */
+    margin-top: 50px;
+    float: left;
+    margin: 20px;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: #71C3E7;
+    transition:all ease-in-out 1s;
+}
+.box:hover{
+    transform: rotate(45deg);
+}
+
+.center .base{
+    background-color: transparent;
+}
+
+.center .base:nth-child(5){
+    background-color: grey;
+}
+
+.center .base:nth-child(6){
+    background-color: grey;
+}
